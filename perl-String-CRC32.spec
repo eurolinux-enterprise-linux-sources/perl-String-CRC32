@@ -1,6 +1,6 @@
 Name:           perl-String-CRC32
 Version:        1.4
-Release:        17%{?dist}
+Release:        19%{?dist}
 Summary:        Perl interface for cyclic redundancy check generation
 Group:          Development/Libraries
 License:        Public Domain
@@ -55,6 +55,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4-19
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-18
+- Mass rebuild 2013-12-27
+
 * Fri Nov 02 2012 Petr Pisar <ppisar@redhat.com> - 1.4-17
 - Correct dependencies
 
